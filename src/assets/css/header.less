@@ -1,0 +1,45 @@
+.header{
+    height: 70px;
+    width:100%;
+    background-color: pink;
+    position: fixed;
+    top:0;
+    left:0;
+    box-shadow: 2px 2px 2px #ccc;
+    z-index: 100;
+
+    .container {
+        width: 1200px;
+        margin: auto;
+        clear:both;
+        .logoArea {
+            float: left;
+            line-height: 70px;
+            position: relative;
+            img {
+                width: 55px;
+                display: inline-block;
+            }
+            p{
+                font-size: 16px;
+                color: #fff;
+                position: absolute;
+                bottom:-15px;
+                left: 60px;
+                width:80px;
+            }
+        }
+
+        .searchArea {
+            float:right;
+            .el-input {
+                margin: 15px;
+                .el-input__inner {
+                    height: 30px !important;
+                    line-height: 30px !important;
+                }
+            }
+            
+        }
+    }
+}
